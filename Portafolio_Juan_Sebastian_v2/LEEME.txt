@@ -1,0 +1,24 @@
+PORTAFOLIO JUAN SEBASTIÁN — PRIMERA SECCIÓN
+
+CONTENIDO
+- index.html: estructura de la página.
+- styles.css: diseño, colores, animaciones y adaptación móvil.
+- script.js: menú móvil, cambio de apariencia y microinteracciones.
+- assets/juan-sebastian.png: fotografía suministrada.
+
+CÓMO ABRIR
+1. Descomprime el archivo ZIP en una carpeta de tu computador.
+2. Abre Visual Studio Code.
+3. Selecciona Archivo > Abrir carpeta y elige "portafolio_juan_inicio".
+4. Abre index.html.
+5. Puedes abrirlo directamente en el navegador. Para trabajar más cómodamente,
+   instala la extensión "Live Server" en Visual Studio Code y pulsa "Go Live".
+
+IMPORTANTE
+- Mantén la carpeta assets junto a index.html; de allí se carga tu fotografía.
+- Los apartados Perfil, Experiencia, Simulador y Contacto son marcadores temporales.
+  Los desarrollaremos después, sin inventar información.
+- La frase de disponibilidad es texto visual; cámbiala si no quieres anunciar
+  que estás disponible para nuevas oportunidades.
+- Las fuentes Space Grotesk e Inter se cargan desde Google Fonts; si no hay internet,
+  el navegador utilizará fuentes alternativas.

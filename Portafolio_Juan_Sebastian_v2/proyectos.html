@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Proyectos, demostraciones y evidencias de Juan Sebastián Pinzón">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#050914">
+  <title>Proyectos y evidencias | Juan Sebastián Pinzón</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .featured-video{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.8fr);gap:26px;align-items:center;padding:24px;margin:28px 0 42px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(125deg,rgba(34,211,238,.09),rgba(99,102,241,.12));box-shadow:0 18px 55px rgba(0,0,0,.16)}
+    .featured-copy .eyebrow{margin-bottom:12px}.featured-copy h2{font:700 clamp(24px,3vw,34px) var(--font-head);margin:0 0 12px}.featured-copy p{color:var(--muted);line-height:1.75;margin:0 0 18px}.featured-label{display:inline-flex;gap:8px;align-items:center;font-size:10px;letter-spacing:.13em;font-weight:700;color:var(--cyan);text-transform:uppercase;margin-bottom:12px}
+    .yt-preview{position:relative;display:block;width:100%;aspect-ratio:16/9;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#030817;cursor:pointer;padding:0}.yt-preview img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .35s,opacity .35s}.yt-preview:hover img{transform:scale(1.035);opacity:.8}.yt-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:68px;height:48px;border-radius:14px;background:#e62117;display:grid;place-items:center;color:white;font-size:23px;box-shadow:0 8px 25px #0008}.yt-preview:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}.yt-frame{position:relative;aspect-ratio:16/9;width:100%;border-radius:14px;overflow:hidden;background:#030817;border:1px solid var(--line)}.yt-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+    .project-section-title{font:700 23px var(--font-head);margin:0 0 7px}.project-section-lead{color:var(--muted);margin:0 0 20px;line-height:1.65}.project-card .yt-preview{margin-top:16px}.project-card .project-actions{margin-top:16px}.project-card p{min-height:0}
+    @media(max-width:800px){.featured-video{grid-template-columns:1fr;padding:17px}.featured-copy{order:0}.featured-media{order:1}}
+  </style>
+</head>
+<body>
+<div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">JS</span><span class="brand-copy"><strong>JUAN SEBASTIÁN</strong><small>Gestión Contable · Datos · Tecnología</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="main-nav" id="mainNav" aria-label="Navegación principal"><a href="index.html"><b>01.</b> Inicio</a><a href="perfil.html"><b>02.</b> Perfil</a><a href="experiencia.html"><b>03.</b> Experiencia</a><a href="formacion.html"><b>04.</b> Formación</a><a class="active" href="proyectos.html"><b>05.</b> Proyectos</a><a href="contacto.html"><b>06.</b> Contacto</a></nav>
+  <button class="theme-toggle" id="themeToggle" aria-label="Cambiar apariencia" title="Cambiar apariencia"><span>☼</span><span>☾</span></button>
+</header>
+<main class="page-main">
+  <section class="featured-video" aria-labelledby="featuredTitle">
+    <div class="featured-copy">
+      <div class="featured-label"><span>✦</span> PRESENTACIÓN DESTACADA</div>
+      <h2 id="featuredTitle">Habilidades y proyectos</h2>
+      <p>Un recorrido por mis competencias, herramientas de trabajo y enfoque para resolver necesidades operativas, contables y de gestión de información.</p>
+      <div class="tag-row"><span>Competencias</span><span>Excel</span><span>Automatización</span><span>Gestión contable</span></div>
+      <p style="font-size:12px;margin-top:16px">Selecciona la vista previa para reproducir el video aquí mismo.</p>
+      <a class="button button-outline" href="https://youtu.be/sSEq_OmyP5E" target="_blank" rel="noopener noreferrer">Ver en YouTube ↗</a>
+    </div>
+    <div class="featured-media">
+      <button class="yt-preview" type="button" data-video="sSEq_OmyP5E" aria-label="Reproducir video de habilidades y proyectos"><img src="https://img.youtube.com/vi/sSEq_OmyP5E/hqdefault.jpg" alt="Vista previa del video de habilidades y proyectos" loading="eager"><span class="yt-play">▶</span></button>
+    </div>
+  </section>
+
+  <div class="page-kicker">05 / TRABAJO APLICADO</div><h1 class="page-title">Proyectos y evidencias</h1>
+  <p class="page-lead">Primero, una presentación general de mis habilidades y proyectos. Después, puedes explorar las herramientas que he desarrollado y consultar sus evidencias.</p>
+
+
+
+  <section aria-labelledby="workTitle"><h2 class="project-section-title" id="workTitle">Proyectos realizados</h2><p class="project-section-lead">Herramientas desarrolladas como ejercicios aplicados y evidencias de aprendizaje. Puedes ver una demostración y abrir o descargar los archivos disponibles.</p>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-card-top"><span>01 / HTML · JAVASCRIPT</span><span class="project-symbol">⌘</span></div><h3>Simulador tributario HABIX</h3>
+        <p>Herramienta académica para explorar operaciones de compra y venta, IVA, retenciones y su efecto contable dentro del proyecto formativo del SENA.</p><div class="tag-row"><span>Tributaria</span><span>Contabilidad</span><span>HTML</span></div>
+        <button class="yt-preview" type="button" data-video="8lD2-fZGPYs" aria-label="Reproducir demostración del simulador tributario"><img src="https://img.youtube.com/vi/8lD2-fZGPYs/hqdefault.jpg" alt="Vista previa del simulador tributario" loading="lazy"><span class="yt-play">▶</span></button>
+        <div class="project-actions"><a href="assets/evidencias/Simulador_Tributario_HABIX.html" target="_blank" rel="noopener">↗ Abrir simulador</a><a class="download" href="assets/evidencias/Simulador_Tributario_HABIX.html" download target="_blank" rel="noopener">↓ Descargar HTML</a><a href="https://youtu.be/8lD2-fZGPYs" target="_blank" rel="noopener">Ver video ↗</a></div>
+      </article>
+      <article class="project-card">
+        <div class="project-card-top"><span>02 / HTML · JAVASCRIPT</span><span class="project-symbol">▤</span></div><h3>Generador de desprendibles</h3>
+        <p>Aplicación que importa información de nómina, permite seleccionar trabajadores y genera la previsualización de desprendibles individuales para impresión o PDF.</p><div class="tag-row"><span>Nómina</span><span>Automatización</span><span>HTML</span></div>
+        <button class="yt-preview" type="button" data-video="vJn-0IROHhI" aria-label="Reproducir demostración del generador de desprendibles"><img src="https://img.youtube.com/vi/vJn-0IROHhI/hqdefault.jpg" alt="Vista previa del generador de desprendibles" loading="lazy"><span class="yt-play">▶</span></button>
+        <div class="project-actions"><a href="assets/evidencias/Generador_Desprendibles.html" target="_blank" rel="noopener">↗ Abrir generador</a><a class="download" href="assets/evidencias/Generador_Desprendibles.html" download target="_blank" rel="noopener">↓ Descargar HTML</a><a href="https://youtu.be/vJn-0IROHhI" target="_blank" rel="noopener">Ver video ↗</a></div>
+      </article>
+      <article class="project-card">
+        <div class="project-card-top"><span>03 / EXCEL</span><span class="project-symbol">▦</span></div><h3>Herramienta de nómina en Excel</h3>
+        <p>Libro de trabajo para organizar información de nómina y apoyar cálculos y procesos recurrentes mediante funciones de Excel. La evidencia descargable utiliza datos de demostración anonimizados.</p><div class="tag-row"><span>Excel</span><span>Nómina</span><span>Procesos</span></div>
+        <button class="yt-preview" type="button" data-video="tVhQxkftJmw" aria-label="Reproducir demostración de nómina en Excel"><img src="https://img.youtube.com/vi/tVhQxkftJmw/hqdefault.jpg" alt="Vista previa de nómina en Excel" loading="lazy"><span class="yt-play">▶</span></button>
+        <div class="project-actions"><a class="download" href="assets/evidencias/Plantilla_Nomina_Datos_Demo.xlsx" download target="_blank" rel="noopener">↓ Descargar Excel de demostración</a><a href="https://youtu.be/tVhQxkftJmw" target="_blank" rel="noopener">Ver video ↗</a></div>
+      </article>
+    </div>
+  </section>
+  <p class="project-note" style="margin-top:25px;color:var(--muted);font-size:12px;line-height:1.7"><strong>Nota:</strong> HABIX S.A.S. corresponde a una empresa didáctica desarrollada en el marco del proyecto formativo del SENA; no se presenta como experiencia laboral en una empresa real. El archivo Excel compartido utiliza datos de demostración anonimizados; no se publica la nómina original.</p>
+</main>
+<footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">JS</span><span class="brand-copy"><strong>JUAN SEBASTIÁN PINZÓN</strong><small>Gestión Contable · Datos · Tecnología</small></span></a><p>Portafolio profesional · 2026</p><a href="index.html">Volver al inicio ↑</a></footer>
+<script src="script.js"></script>
+<script>
+  document.querySelectorAll('.yt-preview').forEach((button)=>{
+    button.addEventListener('click',()=>{
+      const id=button.dataset.video;
+      const frame=document.createElement('div');frame.className='yt-frame';
+      const iframe=document.createElement('iframe');
+      iframe.src='https://www.youtube-nocookie.com/embed/'+encodeURIComponent(id)+'?autoplay=1&rel=0';
+      iframe.title=button.getAttribute('aria-label')||'Video de portafolio';
+      iframe.loading='lazy';iframe.referrerPolicy='strict-origin-when-cross-origin';
+      iframe.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';iframe.allowFullscreen=true;
+      frame.appendChild(iframe);button.replaceWith(frame);
+    });
+  });
+</script>
+</body></html>
